@@ -33,4 +33,13 @@ public interface ATM {
      * @return whether or not this transaction was successful
      */
     boolean withdraw(String account, double amount);
+
+    /**
+     * method: display, this method will display the result of an operation
+     *
+     * @param account is the account from which the transaction is to be done
+     * @param amount  is the amount of money
+     * @param success whether or not the operation was successful
+     */
+    void display(String account, double amount, boolean success);
 }

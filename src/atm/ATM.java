@@ -6,7 +6,6 @@ package atm;
 public interface ATM {
     // NOTE: Since all the methods that are declared inside an Interface in Java are
     // `public abstract` already (by default), we do not need to add any modifiers.
-    // The modifier written in the @method verifyPin is written there for clarification.
 
     /**
      * method: verifyPin, this method will verify the user's ATM PIN

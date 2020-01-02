@@ -50,4 +50,11 @@ public interface ATM {
      * @param success whether the verification was successful
      */
     void display(short pin, boolean success);
+
+    /**
+     * method: showBalance, this method will show the current balance of the account
+     *
+     * @param account this is the account for which the balance is to be shown
+     */
+    void showBalance(String account);
 }

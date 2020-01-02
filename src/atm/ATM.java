@@ -24,4 +24,13 @@ public interface ATM {
      * selected
      */
     String selectAccount();
+
+    /**
+     * method: withdraw, this method will allow the user to withdraw money from their account
+     *
+     * @param account is the account from which the transaction is to be done
+     * @param amount  is the total amount that is to be withdrawn
+     * @return whether or not this transaction was successful
+     */
+    boolean withdraw(String account, double amount);
 }

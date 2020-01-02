@@ -42,4 +42,12 @@ public interface ATM {
      * @param success whether or not the operation was successful
      */
     void display(String account, double amount, boolean success);
+
+    /**
+     * method: display (overloaded) this method will display the result of a pin verification
+     *
+     * @param pin     the ATM PIN of the user
+     * @param success whether the verification was successful
+     */
+    void display(short pin, boolean success);
 }
